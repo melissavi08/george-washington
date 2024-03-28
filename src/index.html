@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link
+      rel="icon"
+      sizes="32x32"
+      type="image/x-icon"
+      href="./assets/images/favicon.ico"
+    />
+
+    <!-- styles -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <title>George Washington | Empresa Agroindustrial Azucarera</title>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header>
+      <div class="header__container">
+        <nav>
+          <!-- LOGO -->
+          <div class="logo">
+            <a href="#" class="logo__link">
+              <img
+                src="./assets/images/logo-white.svg"
+                alt="logo"
+                class="logo__img"
+              />
+            </a>
+          </div>
+          <!-- HAMBURGER MENU ICON -->
+          <div class="menu__icon no-animation">
+            <div class="menu__icon-line line--1"></div>
+            <div class="menu__icon-line line--2"></div>
+            <div class="menu__icon-line line--3"></div>
+          </div>
+        </nav>
+        <!-- MENU -->
+        <div class="menu__container">
+          <ul class="menu">
+            <li><a href="#services" class="menu__link">Servicios</a></li>
+            <li><a href="#team" class="menu__link">Equipo</a></li>
+            <li><a href="#contacts" class="menu__link">Contacto</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- HERO -->
+      <section class="hero">
+        <div class="container container--hero">
+          <article class="hero__header">
+            <h1 class="fadeInUp">George Washington</h1>
+            <h4 class="fadeInUp">Empresa Agroindustrial Azucarera</h4>
+            <img
+              class="hero__header--green fadeInUp"
+              src="./assets/images/endulzate.svg"
+              alt="Endúlzate con Clase"
+            />
+          </article>
+          <article class="hero__news swiper">
+            <div class="swiper-wrapper">
+              <div class="hero__new swiper-slide">
+                <div class="hero__new__container">
+                  <p>
+                    Nuestra cartera de proyectos <br />
+                    garantizando el desarrollo sostenible <br />
+                    de la organización y del entorno
+                  </p>
+                  <hr class="hero__new__line" />
+                  <a
+                    href="./pages/nuestra-cartera.html"
+                    class="hero__new__link"
+                  >
+                    Saber más
+                  </a>
+                </div>
+              </div>
+              <div class="hero__new swiper-slide">
+                <div class="hero__new__container">
+                  <p>
+                    Proyecto IRES, rehabilitación de paisajes <br />
+                    productivos en municipios vulnerables al <br />
+                    cambio climático en Cuba
+                  </p>
+                  <hr class="hero__new__line" />
+                  <a href="./pages/proyecto-ires.html" class="hero__new__link">
+                    Saber más
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="hero__dots swiper-pagination"></div>
+          </article>
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section class="about-us">
+        <div class="container container--about-us">
+          <article class="about-us__intro">
+            <p class="fadeInUp">
+              La Refinería fue fundada en el año 1945, tiene más de 60 años de
+              experiencia acumulada, con una norma potencial de 320 t de azúcar
+              refino por día.
+            </p>
+            <p class="about-us__intro--grey fadeInUp">
+              Comprometidos con el desarrollo local y la protección del medio
+              ambiente.
+            </p>
+          </article>
+          <article class="about-us__description">
+            <div class="about-us__box about-us--mision fadeInUp">
+              <h5 class="box__title">Misión</h5>
+              <p class="box__description">
+                La Empresa Agroindustrial Azucarera George Washington es una
+                organización abierta que produce caña de azúcar, azúcar refino
+                de alta calidad, energía eléctrica que aporta al CEN, y
+                diversifica sus producciones a costos competitivos para
+                satisfacer las necesidades de sus accionistas y clientes en
+                armonía con el medio ambiente.
+              </p>
+            </div>
+            <div class="about-us__box about-us--vision fadeInUp">
+              <h5 class="box__title">Visión</h5>
+              <p class="box__description">
+                Nuestra organización ha alcanzado su máximo potencial
+                productivo, consolidando su posición como líder en la producción
+                de azúcar refino de alta calidad en el país, logrando mayores
+                niveles de exportación y certificando el Sistema Integrado de
+                Gestión. Nos hemos convertido en los mayores aportadores al
+                Sistema Electro Energético Nacional en el territorio a partir de
+                la gestión sustentable de la empresa, trabajando en el
+                mejoramiento continuo para de esta forma disminuir los costos a
+                niveles mínimos y satisfacer a nuestros clientes y partes
+                interesadas con la generación de altos niveles de utilidades y
+                el reconocimiento social y ambiental a la organización.
+              </p>
+            </div>
+          </article>
+          <article class="about-us__gallery swiper">
+            <div class="swiper-wrapper">
+              <picture class="gallery__img swiper-slide">
+                <source
+                  media="(min-width: 768px)"
+                  srcset="./assets/images/sacos-azucar.webp"
+                />
+                <img
+                  src="./assets/images/sacos-azucar-small.webp"
+                  alt="Ingenio Azucarero"
+                />
+              </picture>
+              <picture class="gallery__img swiper-slide">
+                <source
+                  media="(min-width: 768px)"
+                  srcset="./assets/images/central-refineria.webp"
+                />
+                <img
+                  src="./assets/images/central-refineria-small.webp"
+                  alt="Central Refinería"
+                />
+              </picture>
+              <picture class="gallery__img swiper-slide">
+                <source
+                  media="(min-width: 768px)"
+                  srcset="./assets/images/maquinas.webp"
+                />
+                <img src="./assets/images/maquinas-small.webp" alt="Máquinas" />
+              </picture>
+            </div>
+            <div class="gallery__dots swiper-pagination"></div>
+          </article>
+          <article class="about-us__info">
+            <p class="fadeInUp">
+              Somos una empresa de clara proyección estratégica en el desarrollo
+              de la Agroindustria Azucarera Cubana, y que a partir de su
+              presencia en el mercado nacional e internacional con productos y
+              servicios de calidad y valor agregado, contribuya a la sustitución
+              de importaciones y respalde los planes de desarrollo
+              socioeconómico del país, contando para ello con profesionales y
+              trabajadores de elevadas competencias y un alto sentido de
+              pertenencia al sector.
+            </p>
+            <p class="fadeInUp">
+              La Empresa Agroindustrial Azucarera George Washington, integrada
+              al Grupo Azucarero, forma parte de treinta y nueve entidades, que
+              surgen con pérdidas producto del proceso de reestructuración del
+              sector. La Empresa Agroindustrial Azucarera George Washington
+              integrada al grupo azucarero, en forma abreviada Azcuba con
+              domicilio social sito: Batey George Washington, Municipio de Santo
+              Domingo Provincia de Villa Clara.
+            </p>
+            <p class="fadeInUp">
+              La Empresa Agroindustrial George Washington, se crea con todos los
+              bienes de las Unidades Empresariales de Base, Central Azucarero
+              George Washington, Atención a Productores Agropecuarios George
+              Washington y determinados 12 activos de la Oficina Central de la
+              Empresa Azucarera Villa Clara, según Resolución 98 del Grupo
+              Azucarero Azcuba.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <!-- STATS -->
+      <section class="stats">
+        <div class="container container--stats">
+          <div class="stat fadeInUp">
+            <h2>67</h2>
+            <h6>clientes activos</h6>
+          </div>
+          <div class="stat fadeInUp">
+            <h2>11</h2>
+            <h6>productores asociados</h6>
+          </div>
+          <div class="stat fadeInUp">
+            <h2>11</h2>
+            <h6>cartera de proyectos</h6>
+          </div>
+        </div>
+      </section>
+
+      <!-- SERVICES -->
+      <section class="services" id="services">
+        <div class="container container--services">
+          <div class="services__description fadeInUp">
+            <h5>
+              Fondo de tierra (ha) <br />
+              dedicadas a:
+            </h5>
+            <ul class="services__list">
+              <li>Caña: 15064.48</li>
+              <li>Agropecuario: 6463.50</li>
+              <li>Vianda: 455.60</li>
+              <li>Hortalizas: 44.01</li>
+              <li>Grano: 154.89</li>
+              <li>Frutales: 83.72</li>
+              <li>Pecuario: 4391.38</li>
+              <li>Forestal: 1333.9</li>
+            </ul>
+          </div>
+          <div class="services__line"></div>
+          <h4 class="services__title fadeInUp">
+            Para brindar nuestros <br />
+            servicios y productos
+          </h4>
+        </div>
+      </section>
+
+      <!-- SLIDESHOW -->
+      <section class="slideshow">
+        <div class="container container--slideshow swiper">
+          <div class="swiper-wrapper">
+            <div class="slide swiper-slide">
+              <div class="slide__container">
+                <h4 class="slide__title">
+                  Líderes en producciones <br />
+                  de azúcar Refino Clase "A"
+                </h4>
+              </div>
+            </div>
+            <div class="slide swiper-slide">
+              <div class="slide__container">
+                <h4 class="slide__title">
+                  Miel, harina de caña, <br />
+                  piensos líquidos y secos
+                </h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- TEAM -->
+      <section class="team" id="team">
+        <div class="container team__description">
+          <h2 class="team__title fadeInUp">Equipo de Trabajo</h2>
+          <h6 class="team__info fadeInUp">
+            La Empresa Agroindustrial Azucarera George Washington cuenta con un
+            total de 645 trabajadores, destacando en la fuerza laboral y la
+            experiencia que poseen los trabajadores en la rama azucarera.
+          </h6>
+        </div>
+      </section>
+
+      <section class="team team--dark">
+        <div class="container team__members swiper">
+          <div class="swiper-wrapper"></div>
+        </div>
+      </section>
+
+      <!-- PARTNERS -->
+      <section class="partners">
+        <div class="container container--partners">
+          <p class="partners__info fadeInUp">
+            La Empresa Agroindustrial Azucarera George Washington se centra en
+            brindar productos con costos competitivos, gestionando la innovación
+            como parte de su cultura empresarial, para esto cuenta además con un
+            grupo de proveedores de alta gama que le permiten optimizar los
+            procesos y asegurar así el crecimiento productivo en la fabricación
+            de azúcar de alta calidad.
+          </p>
+          <div class="partners__gallery">
+            <img
+              src="./assets/images/azumat.webp"
+              alt="AZUMAT"
+              class="fadeInUp"
+            />
+            <img
+              src="./assets/images/azutecnia.webp"
+              alt="azutecnia"
+              class="fadeInUp"
+            />
+            <img src="./assets/images/ermp.webp" alt="ERMP" class="fadeInUp" />
+            <img
+              src="./assets/images/esazucar.webp"
+              alt="Es Azúcar"
+              class="fadeInUp"
+            />
+            <img
+              src="./assets/images/azutecnia.webp"
+              alt="azutecnia"
+              class="fadeInUp"
+            />
+            <img
+              src="./assets/images/iproyaz.webp"
+              alt="iproyaz"
+              class="fadeInUp"
+            />
+            <img
+              src="./assets/images/etecsa.webp"
+              alt="ETECSA"
+              class="fadeInUp"
+            />
+            <img
+              src="./assets/images/datazucar.webp"
+              alt="DATAZUCAR"
+              class="fadeInUp"
+            />
+            <img src="./assets/images/zeti.webp" alt="ZETI" class="fadeInUp" />
+            <img
+              src="./assets/images/tecnosime.webp"
+              alt="TECNOSIME"
+              class="fadeInUp"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- CLIENTS -->
+      <section class="clients">
+        <div class="container container--clients">
+          <h2 class="clients__title fadeInUp">
+            ¿Qué opinan nuestros clientes?
+          </h2>
+          <div class="clients__reviews">
+            <article class="client__review fadeInUp">
+              <div class="review__img">
+                <img src="./assets/images/tecnoazucar.webp" alt="Tecnoazucar" />
+              </div>
+              <p class="review__description">
+                La Empresa Azucarera Washington representa para Tecnoazúcar un
+                Proveedor muy importante, básico para cumplir nuestra misión,
+                siempre confiamos en disponer de un producto de alta calidad el
+                que espera y prefiere el cliente final. Confianza, empatía y
+                buena comunicación nos une en esta relación Comercial de
+                proveedor y Cliente.
+              </p>
+            </article>
+            <article class="client__review fadeInUp">
+              <div class="review__img review__img--small">
+                <img src="./assets/images/orlasa.webp" alt="Orlasa" />
+              </div>
+              <p class="review__description">
+                ... es un producto (Azúcar Refino Clase A) que a lo largo de los
+                años ha mostrado una verdadera estabilidad en los requisitos que
+                establece la norma, comparados con otros suministradores del
+                área, muestra un mejor resultado en los productos finales que
+                elaboramos, logrando permanecer como nuestro suministrador en
+                plaza ....
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- GLOBAL STATS -->
+      <section class="global-stats">
+        <div class="container container--global-stats">
+          <h4 class="global-stats__title fadeInUp">
+            Estadísticas del mercado internacional
+          </h4>
+          <div class="global-stats__info">
+            <div class="global-stat fadeInUp">
+              <h6>Precio del azúcar crudo</h6>
+              <div class="global-stat__description">
+                <b>14/8/2023</b>
+                <b>- 23.71 Cts/lb -</b>
+              </div>
+            </div>
+            <div class="global-stat fadeInUp">
+              <h6>Precio del azúcar refino</h6>
+              <div class="global-stat__description">
+                <b>14/8/2023</b>
+                <b>- 687.30 Dls./TM -</b>
+              </div>
+            </div>
+            <div class="global-stat fadeInUp">
+              <h6>Precio del petróleo</h6>
+              <div class="global-stat__description">
+                <b>14/8/2023</b>
+                <b>- 86.94 dólar/barril -</b>
+              </div>
+            </div>
+            <div class="global-stat fadeInUp">
+              <h6>Precio del alcohol</h6>
+              <div class="global-stat__description">
+                <b>14/8/2023</b>
+                <b>- 0.67 Dls./lt -</b>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACTS -->
+      <section class="contacts" id="contacts">
+        <div class="container container--contacts">
+          <div class="contacts__info">
+            <div class="contacts__container">
+              <div class="contacts__title">
+                <h5 class="fadeInUp">Datos de Contacto</h5>
+                <p class="fadeInUp">
+                  Comuníquese con nosotros, <br />
+                  será un placer atenderles
+                </p>
+              </div>
+              <ul class="contacts__list">
+                <li class="contact fadeInUp">
+                  <img
+                    class="contact__img"
+                    src="./assets/images/address.svg"
+                    alt="Dirección"
+                  />
+                  <a
+                    href="https://www.google.com/maps/place/Central+Azucarero+George+Washington+(Central+Washington)/@22.5943342,-80.3152357,15z/data=!4m14!1m7!3m6!1s0x88d4c5fd9fed0f47:0xe82c7223b6f8219a!2sCentral+Azucarero+George+Washington+(Central+Washington)!8m2!3d22.5943342!4d-80.3152357!16s%2Fg%2F11vb_mdp8b!3m5!1s0x88d4c5fd9fed0f47:0xe82c7223b6f8219a!8m2!3d22.5943342!4d-80.3152357!16s%2Fg%2F11vb_mdp8b?entry=ttu"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Batey Washington, municipio <br />
+                    Santo Domingo, Villa Clara
+                  </a>
+                </li>
+                <li class="contact fadeInUp">
+                  <img
+                    class="contact__img"
+                    src="./assets/images/email.svg"
+                    alt="Email"
+                  />
+                  <a href="mailto:liesny.angelino@washington.azcuba.cu"
+                    >liesny.angelino@washington.azcuba.cu</a
+                  >
+                </li>
+                <li class="contact fadeInUp">
+                  <img
+                    class="contact__img"
+                    src="./assets/images/whatsapp.svg"
+                    alt="Whatsapp"
+                  />
+                  <a href=" https://wa.me/5350909930" target="_blank">
+                    (53) 5090 9930 <br />
+                    Comunicación Institucional
+                  </a>
+                </li>
+                <li class="contact fadeInUp">
+                  <img
+                    class="contact__img"
+                    src="./assets/images/facebook.svg"
+                    alt="Facebook"
+                  />
+                  <a
+                    href="https://www.facebook.com/profile.php?id=61555762086795"
+                    target="_blank"
+                    >Eaa G. Washington</a
+                  >
+                </li>
+                <li class="contact fadeInUp">
+                  <img
+                    class="contact__img"
+                    src="./assets/images/twitter.svg"
+                    alt="Twitter"
+                  />
+                  <a href="https://twitter.com/EaaGeorge60005" target="_blank"
+                    >@EaaGeorge60005</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <form
+            class="contacts__form"
+            action="https://formsubmit.co/liesny.angelino@washington.azcuba.cu"
+            method="POST"
+          >
+            <input
+              class="form__input fadeInUp"
+              name="email"
+              type="email"
+              id="email"
+              placeholder="Su correo*"
+              required
+            />
+            <input
+              class="form__input fadeInUp"
+              name="subject"
+              type="text"
+              id="subj"
+              placeholder="Asunto"
+            />
+            <textarea
+              class="form__input fadeInUp"
+              name="message"
+              id="message"
+              placeholder="Mensaje*"
+              cols="30"
+              rows="15"
+              required
+            ></textarea>
+            <button class="form__button fadeInUp" type="submit" title="Enviar">
+              <img src="./assets/images/icon-send-email.svg" alt="" />
+            </button>
+            <input type="hidden" name="_next" value="https://..." />
+            <input type="hidden" name="_captcha" value="false" />
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <!-- FOOTER LINKS-->
+      <section class="footer-links">
+        <div class="container container--footer-links">
+          <h6 class="footer-links__title">Enlaces de interés</h6>
+          <div class="footer-links__boxes">
+            <div class="footer-links__box">
+              <ul>
+                <li class="footer-link">
+                  <a href="https://www.presidencia.gob.cu/es/">
+                    Presidencia de Cuba
+                  </a>
+                </li>
+                <li>
+                  <a href="http://mesaredonda.cubadebate.cu/"> Mesa Redonda </a>
+                </li>
+                <li>
+                  <a href="https://www.pcc.cu">PCC</a>
+                </li>
+                <li>
+                  <a href="https://salud.msp.gob.cu/">
+                    Ministerio de Salud Pública
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer-links__box">
+              <ul>
+                <li>
+                  <a href="https://www.sld.cu/">Infomed</a>
+                </li>
+                <li>
+                  <a href="http://www.cubadebate.cu/">Cubadebate</a>
+                </li>
+                <li>
+                  <a href="https://twitter.com/CanalCaribeCuba">Canal Caribe</a>
+                </li>
+                <li>
+                  <a href="https://www.otaz.azcuba.cu/">OTAZ</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer-links__box">
+              <a href="https://www.azcuba.cu/">
+                <img
+                  src="./assets/images/azcuba.svg"
+                  alt="AZCUBA"
+                  class="footer-link__img"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <hr class="footer__line" />
+
+      <!-- COPYRIGHT -->
+      <section class="copyright">
+        <p>
+          Copyright ©<span id="copyright__year"></span> Central George
+          Washington. Todos los derechos reservados.
+        </p>
+      </section>
+    </footer>
+
+    <!-- SCRIPTS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/animation.js"></script>
+  </body>
+</html>
